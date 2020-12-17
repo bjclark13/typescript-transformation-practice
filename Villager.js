@@ -16,7 +16,9 @@ class Villager {
     return `Hello, my name is ${this.name} and I was born on ${this.birthday}. ${this.catchPhrase}!`;
   }
 
-  addToPockets() {}
+  addToPockets(item) {
+      this.pockets.push(item);
+  }
 
   useTool(toolName) {
     if (this.tools[toolName]) {
