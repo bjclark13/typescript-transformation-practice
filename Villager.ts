@@ -47,5 +47,3 @@ class Villager {
 const villager = new Villager("BJ", '09-15-1900', "Hey there!");
 villager.useTool('hammer');
 
-const villagerElement = document.querySelector('#villager');
-villagerElement?.innerHTML = villager.sayHello();
